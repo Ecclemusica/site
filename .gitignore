@@ -1,0 +1,16 @@
+#ignore everything except what is defined here
+/*
+!.gitignore
+!readme.md
+!wp-content/
+
+#ignore everything in the wp-content directory except what is defined here
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+#ignore the plugins directory
+wp-content/plugins/*
+
+#ignore the themes directory
+wp-content/themes/*
